@@ -1,0 +1,164 @@
+Use case:1
+Create ec2 instance
+Install Apache web server - Role 1
+Setup the Web Server to run in 80 port
+Install Apache Geronimo - Role 2
+Connect Web Server to Apache Geronimo
+Install Hello world WAR File - Role 3
+Open a Browser and access the application through port 80
+----------------------------------------------------------
+Use case:2
+Create 1 EC2 Instance
+Enable SSH Keys
+Host Inventory Update for Ansible
+
+Create Ansible Playbook
+WebSphere Liberty Standalone
+Download WAR file from Github account.
+Install Liberty
+Install WAR file  
+
+Test the JSP Page from Browser and provide me the output. 
+----------------------------------------------------------
+Use case:3
+Create ec2 instance
+Install Apache web server - Role 1
+Setup the Web Server to run in 80 port 
+Install Jetty Application Server - Role 2
+Connect Web Server to Jetty - Role 3
+Install Hello world WAR File in Jetty
+Open a Browser and access the application through port 80
+----------------------------------------------------------
+Use Case:4
+Create 1 EC2 Instance
+Enable SSH Keys
+Host Inventory Update for Ansible
+
+Create Ansible Playbook
+JBoss Standalone
+Download WAR file from S3.
+Install JBoss
+Install WAR file  
+
+jboss-helloworld.war --> S3
+
+Test the JSP Page from Browser and provide me the output. 
+----------------------------------------------------------
+Use case:5
+Create ec2 instance
+Install Apache web server - Role 1
+Setup the Web Server to run in 80 port - Role 2
+Install Apache Tomcat - Role 3
+Connect Web Server to Tomcat - Role 4
+Install Hello world WAR File - Role 5
+Open a Browser and access the application through port 80
+----------------------------------------------------------
+Use Case:6
+Create 2 EC2 Instances
+Enable SSH Keys
+Host Inventory Update for Ansible
+
+Create Ansible Playbook
+Install Web Server(Apache) on 2 Instances 
+Update HTTPD Config file -- User needs to be changed to nobody
+Place content from S3 - 2 separate files
+Start HTTPD or Start Service
+
+Test the content file from Browser. 
+-------------------------------------------------------------
+Use Case:7
+Create 1 EC2 Instance
+Enable SSH Keys
+Host Inventory Update for Ansible
+
+Create Ansible Playbook
+Wordpress Standalone
+Install Apache Web Server
+Install Wordpress
+Download content from S3 or Wordpress
+
+Test the Content Page from Browser and provide me the output. 
+--------------------------------------------------------------
+Use case:8
+Create ec2 instance
+Install Apache web server
+Setup the Web Server to run in 80 port
+Install PHP
+Install Hello world PHP File
+Open a Browser and access the application through port 80
+----------------------------------------------------------
+Use Case:9
+Create 2 EC2 Instances
+Enable SSH Keys
+Host Inventory Update for Ansible
+
+Create Ansible Playbook
+Install NoSQL Database on 1 Instance
+Store Employee Data 
+Start Database
+Store Data - Sundeep 15 times
+Access the data and show me the output
+----------------------------------------------------------
+Use case:10
+Create ec2 instance
+Install Apache web server - Role 1
+Setup the Web Server to run in 80 port - Role 2
+Install Glassfish - Role 3
+Connect Web Server to Glassfish - Role 4
+Install Hello world WAR File - Role 5
+Open a Browser and access the application through port 80
+------------------------------------------------------------
+Use case:11
+Create ec2 instance
+Install Apache web server - Role 1
+Setup the Web Server to run in 80 port - Role 2
+Install Apache Tomcat - Role 3
+Connect Web Server to Tomcat - Role 4
+Install Hello world WAR File - Role 5
+Open a Browser and access the application through port 80
+-----------------------------------------------------------
+Use Case:12
+Create 2 EC2 Instances
+Enable SSH Keys
+Host Inventory Update for Ansible
+
+Create Ansible Playbook
+Install Web Server(Nginx) on 2 Instances 
+Update HTTPD Config file -- Log File Location Change that
+Place content from S3 - 4 separate files
+Start Nginx
+
+Test the content file from Browser. 
+-----------------------------------------------------------
+Use case:13
+Create ec2 instance
+Install Apache Web server - Role 1
+Install Jboss - 8080 - Role 2
+Connect Web Server to JBoss - Plugin - port 80 - Role 3
+Install Hello World - Role 4
+Open a browser and access the application through port 80
+-----------------------------------------------------------
+Use Case:14
+Create 1 EC2 Instance
+Enable SSH Keys
+Host Inventory Update for Ansible
+
+Create Ansible Playbook
+WebLogic Standalone
+Install WebLogic
+Start WebLogic
+Install WAR file from Github
+
+Test the  JSP Page from Browser and provide me the output. 
+-----------------------------------------------------------
+Use case:15 - LAMP Simple
+Create ec2 instance
+Install Apache web server - Role 1
+Setup the Web Server to run in 443 port - Role 2
+Install WebSphere Liberty - Role 3
+Connect Web Server to WebSphere Liberty - Role 4
+Install Hello world - Role 5
+Open a Browser and access the application through port 443
+
+https://github.com/ansible/ansible-examples/tree/master/lamp_simple_rhel7
+---------------------------------------------------------------------------
