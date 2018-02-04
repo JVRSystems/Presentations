@@ -1,0 +1,21 @@
+git status
+git add .
+git commit -m "message"
+git push
+git merge
+git pull
+git checkout - jump to another branch
+git checkout -b <name>  in master branch 
+git stash - ignore changes and stack them  - (git stash apply - if you want it back)
+git squash - commits more messages at a time
+
+
+types of branches:
+master - main copy
+develop - 
+feature
+ 
+
+
+after commiting changes in Feature(child branch) branch we will merge it into the Master branch.
+master -> feature(chaild branch) changes commit - add commit push
