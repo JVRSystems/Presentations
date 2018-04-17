@@ -1,0 +1,6 @@
+Install Docker
+run Docker Commands
+Create Containers
+Create Nginx App
+Deploy Nginx App
+Test Container through a browser 
